@@ -16,14 +16,14 @@
       "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
     }
   ],
-  "Author": "TODO_ENTER_YOUR_NAME",
-  "Name": "TeamsDeck",
-  "Description": "TODO_ENTER_PLUGIN_DESCRIPTION",
+  "Author": "Benjamin Fourmaux -- Beruet",
+  "Name": "Teams Deck",
+  "Description": "Microsoft Teams plugin for Elgato Streamdeck",
   "Icon": "Images/pluginIcon",
-  "URL": "TODO_ENTER_YOUR_HOMEPAGE",
+  "URL": "https://www.benjamin-fourmauxb.fr/",
   "Version": "1.0",
   "CodePath": "TeamsDeck",
-  "Category": "Custom",
+  "Category": "Productivity",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [
     {
