@@ -12,7 +12,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "TODO_ENTER_TOOLTIP",
-      "UUID": "TeamsDeck.pluginaction",
+      "UUID": "teams-deck.pluginaction",
       "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
     }
   ],
@@ -22,8 +22,8 @@
   "Icon": "Images/pluginIcon",
   "URL": "https://www.benjamin-fourmauxb.fr/",
   "Version": "1.0",
-  "CodePath": "TeamsDeck",
-  "Category": "Productivity",
+  "CodePath": "teams-deck",
+  "Category": "Teams",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [
     {
