@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TeamsDeck
+namespace TeamsDeck.Actions
 {
     [PluginActionId("TeamsDeck.pluginaction")]
     public class PluginAction : PluginBase
