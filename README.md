@@ -10,6 +10,8 @@ Teams Deck is a [Elgato streamdeck](https://www.elgato.com/gaming/stream-deck) p
 \
 This plugin is base on the code template of [BarRaider - streamdeck tools](https://github.com/BarRaider/streamdeck-tools)
 
+This plugin use icons from [Vive Motion - Teams Icons Pack](https://vivre-motion.com/products/microsoft-teams-rgb-png-shortcut-icons)
+
 ## Features
  - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() Answer a call
  - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() Reject a call
