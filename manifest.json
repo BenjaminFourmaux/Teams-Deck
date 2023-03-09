@@ -2,27 +2,27 @@
   "Actions": [
     {
       "Icon": "Images/icon",
-      "Name": "TODO_ENTER_NAME_OF_ACTION",
+      "Name": "Test",
       "States": [
         {
-          "Image": "Images/pluginAction",
+          "Image": "Images/icon",
           "TitleAlignment": "middle",
           "FontSize": "12"
         }
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "TODO_ENTER_TOOLTIP",
-      "UUID": "TeamsDeck.pluginaction",
+      "UUID": "my.company.pluginaction",
       "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
     }
   ],
   "Author": "Benjamin Fourmaux -- Beruet",
   "Name": "Teams Deck",
   "Description": "Microsoft Teams plugin for Elgato Streamdeck",
-  "Icon": "Images/pluginIcon",
+  "Icon": "Images/icon",
   "URL": "https://www.benjamin-fourmauxb.fr/",
   "Version": "1.0",
-  "CodePath": "teams-deck",
+  "CodePath": "my.company",
   "Category": "Teams",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [

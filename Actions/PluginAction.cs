@@ -5,12 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TeamsDeck.Actions
 {
-    [PluginActionId("TeamsDeck.pluginaction")]
+    [PluginActionId("my.company.pluginaction")]
     public class PluginAction : PluginBase
     {
         private class PluginSettings
@@ -54,9 +55,21 @@ namespace TeamsDeck.Actions
             Logger.Instance.LogMessage(TracingLevel.INFO, $"Destructor called");
         }
 
-        public override void KeyPressed(KeyPayload payload)
+        public async override void KeyPressed(KeyPayload payload)
         {
             Logger.Instance.LogMessage(TracingLevel.INFO, "Key Pressed");
+
+            var client = new HttpClient();
+
+            var dict = new Dictionary<string, string>();
+            dict.Add("Content-Type", "application/x-www-form-urlencoded");
+
+            var response = await client.PostAsync("http://127.0.0.1/test-send-http/", new FormUrlEncodedContent(dict));
+
+
+            settings.InputString = await response.Content.ReadAsStringAsync();
+
+            await SaveSettings();
         }
 
         public override void KeyReleased(KeyPayload payload) { }
