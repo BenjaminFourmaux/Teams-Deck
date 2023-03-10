@@ -1,9 +1,9 @@
+[![](https://badgen.net/badge/c%23/latest/purple)]() [![](https://shields.io/badge/Microsoft-Teams-blue?logo=microsoftteams&style=flat&logoColor=white)]()
+[![](https://shields.io/badge/Elgato-StreamDeck-darkblue?logo=elgato&style=flat&logoColor=white)]()
+
 # Teams Deck
 A Microsoft Teams plugin for Elgato Streamdeck
 > Because my workmate Julian is always in Teams meeting, all times :joy:
-
-[![](https://badgen.net/badge/c%23/latest/purple)]() [![](https://shields.io/badge/Microsoft-Teams-blue?logo=microsoftteams&style=flat&logoColor=white)]()
-[![](https://shields.io/badge/Elgato-StreamDeck-darkblue?logo=elgato&style=flat&logoColor=white)]()
 
 ## What Is This ?
 Teams Deck is a [Elgato streamdeck](https://www.elgato.com/gaming/stream-deck) plugin to control [Microsoft Teams](https://www.microsoft.com/fr-fr/microsoft-teams/group-chat-software) application and it add shortcuts to optimized your workflow.
