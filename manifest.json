@@ -1,19 +1,21 @@
 {
   "Actions": [
     {
-      "Icon": "Images/icon",
-      "Name": "Test",
+      "Name": "Mute/Unmute microphone",
+      "Icon": "Images/Icons/mic",
+      "Tooltip": "Mute/Unmute the Microphone",
+      "UUID": "com.teams-deck.toggle.microphone",
       "States": [
         {
-          "Image": "Images/icon",
-          "TitleAlignment": "middle",
-          "FontSize": "12"
+          "Name": "Unmute",
+          "Image": "Images/Icons/mic"
+        },
+        {
+          "Name": "Mute",
+          "Image": "Images/Icons/mic_off"
         }
       ],
-      "SupportedInMultiActions": false,
-      "Tooltip": "TODO_ENTER_TOOLTIP",
-      "UUID": "my.company.pluginaction",
-      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+      "SupportedInMultiActions": false
     }
   ],
   "Author": "Benjamin Fourmaux -- Beruet",
@@ -22,7 +24,7 @@
   "Icon": "Images/icon",
   "URL": "https://www.benjamin-fourmauxb.fr/",
   "Version": "1.0",
-  "CodePath": "my.company",
+  "CodePath": "com.teams-deck",
   "Category": "Teams",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [
