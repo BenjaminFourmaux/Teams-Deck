@@ -1,14 +1,13 @@
 ﻿using BarRaider.SdTools;
-using System;
-using System.Collections.Generic;
-using System.IO.Pipes;
-using System.Net.Http;
+using System.ServiceProcess;
 
 namespace Stopwatch
 {
     [PluginActionId("com.teams-deck.toggle.microphone")]
     public class ToggleMicrophoneAction : KeypadBase
     {
+        ServiceController TeamsService = new ServiceController("teams");
+
         #region KeypadBase Methods
 
         public ToggleMicrophoneAction(SDConnection connection, InitialPayload payload) 
@@ -21,7 +20,7 @@ namespace Stopwatch
         public async override void KeyPressed(KeyPayload payload)
         {
             // Check Teams availability
-            if (true) { await Connection.ShowAlert(); return; }
+            if (TeamsService.Status != ServiceControllerStatus.Running) { await Connection.ShowAlert(); return; }
 
             // Mute or Unmute microphone with call Teams
             if (payload.State == 0) // Current state 0 => 1
