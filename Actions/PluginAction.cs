@@ -3,15 +3,12 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace TeamsDeck.Actions
 {
-    [PluginActionId("my.company.pluginaction")]
+    [PluginActionId("com.teams-deck.pluginaction")]
     public class PluginAction : PluginBase
     {
         private class PluginSettings
@@ -67,7 +64,7 @@ namespace TeamsDeck.Actions
             var response = await client.PostAsync("http://127.0.0.1/test-send-http/", new FormUrlEncodedContent(dict));
 
 
-            settings.InputString = await response.Content.ReadAsStringAsync();
+            settings.InputString = payload.State.ToString();
 
             await SaveSettings();
         }
