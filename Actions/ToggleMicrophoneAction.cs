@@ -1,5 +1,6 @@
 ﻿using BarRaider.SdTools;
 using System.ServiceProcess;
+using TeamsDeck.ControlsManager.Audio;
 
 namespace Stopwatch
 {
@@ -19,7 +20,7 @@ namespace Stopwatch
 
         public async override void KeyPressed(KeyPayload payload)
         {
-            // Check Teams availability
+            // Check Teams service is running
             if (TeamsService.Status != ServiceControllerStatus.Running) { await Connection.ShowAlert(); return; }
 
             // Mute or Unmute microphone with call Teams
@@ -31,6 +32,7 @@ namespace Stopwatch
             {
                 // TODO : Call Teams to unmute microphone
             }
+            
         }
 
         public async override void KeyReleased(KeyPayload payload) { }
