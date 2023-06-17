@@ -42,7 +42,7 @@ namespace TeamsDeck.ControlsManager.Audio
         /// <summary>
         /// Demute the master volume
         /// </summary>
-        public void DeMute()
+        public void UnMute()
         {
             // Get volume controler of the default device
             AudioEndpointVolume volume = DefaultDevice.AudioEndpointVolume;
