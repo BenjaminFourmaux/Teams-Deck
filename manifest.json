@@ -4,7 +4,7 @@
       "Name": "Mute/Unmute microphone",
       "Icon": "Images/Icons/mic",
       "Tooltip": "Mute/Unmute the Microphone",
-      "UUID": "com.teams-deck.toggle.microphone",
+      "UUID": "com.teams-deck.microphone.toggle",
       "States": [
         {
           "Name": "Unmute",
@@ -16,6 +16,49 @@
         }
       ],
       "SupportedInMultiActions": false
+    },
+    {
+      "Name": "Turn down volume",
+      "Icon": "Images/Icons/speaker_1",
+      "Tooltip": "Turn down the audio volume",
+      "UUID": "com.teams-deck.audio.minvol",
+      "States": [
+        {
+          "Name": "Turn down",
+          "Image": "Images/Icons/speaker_1"
+        }
+      ],
+      "SupportedInMultiActions": true
+    },
+    {
+      "Name": "Turn up volume",
+      "Icon": "Images/Icons/speaker_2",
+      "Tooltip": "Turn up the audio volume",
+      "UUID": "com.teams-deck.audio.maxvol",
+      "States": [
+        {
+          "Name": "Turn up",
+          "Image": "Images/Icons/speaker_2"
+        }
+      ],
+      "SupportesInMultiActions": true
+    },
+    {
+      "Name": "Mute/Unmute volume",
+      "Icon": "Images/Icons/speaker_off",
+      "Tooltip": "Mute/Unmute the audio volume",
+      "UUID": "com.teams-deck.audio.toggle",
+      "States": [
+        {
+          "Name": "Mute",
+          "Image": "Images/Icons/speaker_off"
+        },
+        {
+          "Name": "Unmute",
+          "Image": "Images/Icons/speaker_2"
+        }
+      ],
+      "SupportesInMultiActions": true
     }
   ],
   "Author": "Benjamin Fourmaux -- Beruet",

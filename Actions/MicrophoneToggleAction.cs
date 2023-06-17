@@ -2,23 +2,23 @@
 using System.ServiceProcess;
 using TeamsDeck.ControlsManager.Audio;
 
-namespace Stopwatch
+namespace TeamsDeck.Actions
 {
-    [PluginActionId("com.teams-deck.toggle.microphone")]
-    public class ToggleMicrophoneAction : KeypadBase
+    [PluginActionId("com.teams-deck.microphone.toggle")]
+    public class MicrophoneToggleAction : KeypadBase
     {
         ServiceController TeamsService = new ServiceController("teams");
 
         #region KeypadBase Methods
 
-        public ToggleMicrophoneAction(SDConnection connection, InitialPayload payload) 
+        public MicrophoneToggleAction(SDConnection connection, InitialPayload payload) 
             : base(connection, payload) { }
 
         public override void ReceivedSettings(ReceivedSettingsPayload payload) { }
 
         public override void ReceivedGlobalSettings(ReceivedGlobalSettingsPayload payload) { }
 
-        public async override void KeyPressed(KeyPayload payload)
+        public override async void KeyPressed(KeyPayload payload)
         {
             // Check Teams service is running
             if (TeamsService.Status != ServiceControllerStatus.Running) { await Connection.ShowAlert(); return; }
@@ -35,9 +35,9 @@ namespace Stopwatch
             
         }
 
-        public async override void KeyReleased(KeyPayload payload) { }
+        public override async void KeyReleased(KeyPayload payload) { }
 
-        public async override void OnTick() { }
+        public override async void OnTick() { }
 
         public override void Dispose() { }
 
