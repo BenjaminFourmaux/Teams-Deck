@@ -14,6 +14,8 @@ Due to Microsoft Teams application restrictions, this plugin does not interact d
 
 This plugin use icons from [Vive Motion - Teams Icons Pack](https://vivre-motion.com/products/microsoft-teams-rgb-png-shortcut-icons)
 
+## How to install :rocket:
+
 ## Features
  - 🎤 Mute/Unmute microphone
  - 🔈 Mute/Unmute volume
@@ -21,8 +23,6 @@ This plugin use icons from [Vive Motion - Teams Icons Pack](https://vivre-motion
  - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Answer a call~~
  - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Reject a call~~
  - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Disable/Enable webcam~~
- 
-## How to install :rocket:
  
 ## Contributors
 [![](https://badgen.net/github/contributors/BenjaminFourmaux/Teams-Deck)](https://github.com/BenjaminFourmaux/Teams-Deck/graphs/contributors)
