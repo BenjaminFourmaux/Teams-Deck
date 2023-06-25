@@ -1,5 +1,5 @@
-[![](https://badgen.net/badge/c%23/latest/purple)]() [![](https://shields.io/badge/Microsoft-Teams-blue?logo=microsoftteams&style=flat&logoColor=white)]()
-[![](https://shields.io/badge/Elgato-StreamDeck-darkblue?logo=elgato&style=flat&logoColor=white)]()
+[![](https://badgen.net/badge/c%23/latest/purple)]() [![](https://shields.io/badge/Microsoft-Teams-464EB8?logo=microsoftteams&style=flat&logoColor=white)]()
+[![](https://shields.io/badge/Elgato-StreamDeck-darkblue?logo=elgato&style=flat&logoColor=white)]() [![](https://shields.io/badge/Windows-10-0078d4?logo=windows&style=flat&logoColor=white)]()
 
 # Teams Deck
 A Microsoft Teams plugin for Elgato Streamdeck
