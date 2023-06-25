@@ -10,15 +10,17 @@ Teams Deck is a [Elgato streamdeck](https://www.elgato.com/gaming/stream-deck) p
 \
 This plugin is base on the code template of [BarRaider - streamdeck tools](https://github.com/BarRaider/streamdeck-tools)
 
+Due to Microsoft Teams application restrictions, this plugin does not interact directly with Teams desktop app. We have developed a system that allows to know which devices are used by Teams, in awaiting that change. It may not work correctly. Thank you for understanding.
+
 This plugin use icons from [Vive Motion - Teams Icons Pack](https://vivre-motion.com/products/microsoft-teams-rgb-png-shortcut-icons)
 
 ## Features
  - 🎤 Mute/Unmute microphone
  - 🔈 Mute/Unmute volume
  - 🎧 Turn up/down the volume
- - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() Answer a call
- - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() Reject a call
- - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() Disable/Enable webcam
+ - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Answer a call~~
+ - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Reject a call~~
+ - [![](https://shields.io/badge/-in%20progress-inactive?style=flat-square)]() ~~Disable/Enable webcam~~
  
 ## How to install :rocket:
  
