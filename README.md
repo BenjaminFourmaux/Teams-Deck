@@ -15,6 +15,10 @@ Due to Microsoft Teams application restrictions, this plugin does not interact d
 This plugin use icons from [Vive Motion - Teams Icons Pack](https://vivre-motion.com/products/microsoft-teams-rgb-png-shortcut-icons)
 
 ## How to install :rocket:
+- Download the file `com.teams-deck.streamDeckPlugin` in the release
+- Double clic in
+- Clic on "OK" when the install pop up
+- And voilà !
 
 ## Features
  - 🎤 Mute/Unmute microphone
