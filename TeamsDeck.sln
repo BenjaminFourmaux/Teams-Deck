@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsDeck", "TeamsDeck.csproj", "{60045615-5ECC-48D0-B976-2A293FF4310B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{41D22F12-BA43-4F55-8371-AA5DCB5426E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60045615-5ECC-48D0-B976-2A293FF4310B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60045615-5ECC-48D0-B976-2A293FF4310B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60045615-5ECC-48D0-B976-2A293FF4310B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60045615-5ECC-48D0-B976-2A293FF4310B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D22F12-BA43-4F55-8371-AA5DCB5426E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D22F12-BA43-4F55-8371-AA5DCB5426E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D22F12-BA43-4F55-8371-AA5DCB5426E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D22F12-BA43-4F55-8371-AA5DCB5426E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A8CD1B64-1548-4335-86F4-5BA927FDFC49}
+		SolutionGuid = {3699D571-BA65-4675-A2EA-6C68045441F0}
 	EndGlobalSection
 EndGlobal
