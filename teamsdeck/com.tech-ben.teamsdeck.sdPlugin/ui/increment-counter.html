@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Teams Integration Settings</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+</head>
+
+<body>
+    <!--
+        Configuration pour l'intégration Microsoft Teams
+    -->
+    <sdpi-item label="Token API Teams">
+        <sdpi-textfield setting="teamsApiToken" placeholder="Entrez votre token API Teams" password></sdpi-textfield>
+    </sdpi-item>
+    
+    <sdpi-item label="Mode d'affichage">
+        <sdpi-select setting="displayMode" default="mute">
+            <option value="mute">État du micro</option>
+            <option value="camera">État de la caméra</option>
+            <option value="meeting">État de la réunion</option>
+        </sdpi-select>
+    </sdpi-item>
+    
+    <sdpi-item label="Instructions">
+        <div style="font-size: 12px; color: #666; line-height: 1.4;">
+            <p><strong>Comment obtenir un token API :</strong></p>
+            <ol>
+                <li>Ouvrez Microsoft Teams</li>
+                <li>Allez dans Paramètres > Confidentialité</li>
+                <li>Activez "Permettre aux applications tierces d'accéder aux informations de réunion"</li>
+                <li>Copiez le token généré et collez-le ci-dessus</li>
+            </ol>
+            <p><strong>Utilisation :</strong></p>
+            <ul>
+                <li>Cliquez sur le bouton pour changer le mode d'affichage</li>
+                <li>L'icône se met à jour automatiquement avec l'état Teams</li>
+                <li>Rouge = Muet/Caméra arrêtée/Hors réunion</li>
+                <li>Normal = Audio/Caméra/En réunion</li>
+            </ul>
+        </div>
+    </sdpi-item>
+</body>
+
+</html>
